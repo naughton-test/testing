@@ -19,12 +19,16 @@ Once nmap has been installed attempt to run a ping sweep
 
 `nmap -sP xxx.xxx.1-255.1-255` where the x's are the first two octets of the address. 
 
-```Starting Nmap 7.80 ( https://nmap.org ) at 2020-06-03 14:47 UTC
+```
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-06-03 14:47 UTC
 Connection to docker closed by remote host.
 Connection to docker closed.
 
 The environment has expired.
 
-Please refresh to get a new environment.```
+Please refresh to get a new environment.
+
+```
 
 Katacoda scenarios are hardened to not allow this, and other activites. 
