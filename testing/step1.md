@@ -1,7 +1,7 @@
 First if you run `whoami`{{execute HOST1}}, you will see that you are running as `root`. 
 
 The scenario is build with a specific goal in mind, however users are able to install tools onto the instance. 
-As an example if you install net-tools `apt install  net-tools`{{execute HOST1}} into the scenario this will allow you to get the hosts IP
+As an example if you install net-tools `apt install net-tools`{{execute HOST1}} into the scenario this will allow you to get the hosts IP
 by using `ifconfig`{{execute HOST1}}
 
 By design Katacoda scenarios allow the user to install containers to the running instance. 
